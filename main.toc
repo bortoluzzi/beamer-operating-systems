@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Memory Management}{7}{0}{2}
-\beamer@sectionintoc {3}{File Systems}{9}{0}{3}
-\beamer@sectionintoc {4}{Input/Output}{11}{0}{4}
-\beamer@sectionintoc {5}{Deadlocks}{13}{0}{5}
