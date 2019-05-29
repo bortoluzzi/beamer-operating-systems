@@ -6,70 +6,12 @@
 \usetheme{Madrid}
 \usecolortheme{default}
 
-%------------------------------------------------------------
-%This block of code defines the information to appear in the
-%Title page
-\title[Operating Systems] %optional
-{Operating Systems}
-
-\subtitle{Beamer version 0.1}
-
-\author[Fabricio Bortoluzzi] % (optional)
-{Fabricio Bortoluzzi\inst{1}}
-
-\institute[UNIVALI] % (optional)
-{
-  \inst{1}%
-  Computer Networks Laboratory\\
-  in collaboration with\\
-  Laboratory of Embedded and Distributed Systems\\
-}
-
-\date[UNIVALI 2019] % (optional)
-{www.univali.br\\leds.acad.univali.br}
-
-%\logo{\includegraphics[height=1.5cm]{univali-logo.jpg}}
-
-%End of title page configuration block
-%------------------------------------------------------------
-
-
-
-%------------------------------------------------------------
-%The next block of commands puts the table of contents at the 
-%beginning of each section and highlights the current section:
-
-\AtBeginSection[]
-{
-  \begin{frame}
-    \frametitle{Table of Contents}
-    \tableofcontents[currentsection]
-  \end{frame}
-}
-%------------------------------------------------------------
-
-
-\begin{document}
-
-%The next statement creates the title page.
-\frame{\titlepage}
-
-
-%---------------------------------------------------------
-%This block of code is for the table of contents after
-%the title page
-\begin{frame}
-\frametitle{Table of Contents}
-\tableofcontents
-\end{frame}
-%---------------------------------------------------------
-
-
-\include{chapters/introduction}
-\include{chapters/memory_management}
-\include{chapters/filesystems}
-\include{chapters/input_output}
-\include{chapters/deadlocks}
+\include{sections/title}
+\include{sections/introduction}
+\include{sections/memory_management}
+\include{sections/filesystems}
+\include{sections/input_output}
+\include{sections/deadlocks}
 
 %\include{main-examples}
 
