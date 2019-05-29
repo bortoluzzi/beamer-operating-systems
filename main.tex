@@ -9,29 +9,27 @@
 %------------------------------------------------------------
 %This block of code defines the information to appear in the
 %Title page
-\title[About Beamer] %optional
-{About the Beamer class in presentation making}
+\title[Operating Systems] %optional
+{Operating Systems}
 
-\subtitle{A short story}
+\subtitle{for Computer Science, 
+    Computer Engineering 
+    and Internet Systems}
 
-\author[Arthur, Doe] % (optional)
-{A.~B.~Arthur\inst{1} \and J.~Doe\inst{2}}
+\author[Bortoluzzi] % (optional)
+{Fabricio Bortoluzzi\inst{1}}
 
-\institute[VFU] % (optional)
+\institute[UNIVALI] % (optional)
 {
   \inst{1}%
-  Faculty of Physics\\
-  Very Famous University
-  \and
-  \inst{2}%
-  Faculty of Chemistry\\
-  Very Famous University
+  Computer Networks Laboratory\\
+  Laboratory of Embedded and Distributed Systems\\
 }
 
-\date[VLC 2014] % (optional)
-{Very Large Conference, April 2014}
+\date[UNIVALI 2019] % (optional)
+{www.univali.br}
 
-\logo{\includegraphics[height=1.5cm]{univali-logo.jpg}}
+%\logo{\includegraphics[height=1.5cm]{univali-logo.jpg}}
 
 %End of title page configuration block
 %------------------------------------------------------------
@@ -68,7 +66,7 @@
 %---------------------------------------------------------
 
 
-\section{First section}
+\section{Introduction}
 
 %---------------------------------------------------------
 %Changing visivility of the text
@@ -98,7 +96,7 @@ And finally everything will be there
 \end{frame}
 %---------------------------------------------------------
 
-\section{Second section}
+\section{Processes and Threads}
 
 %---------------------------------------------------------
 %Highlighting text
@@ -147,5 +145,12 @@ layout in some cases.
 \end{frame}
 %---------------------------------------------------------
 
+\include{chapters/memory_management.tex}
+
+\section{File Systems}
+
+\section{Input/Output}
+
+\section{Deadlocks}
 
 \end{document}
