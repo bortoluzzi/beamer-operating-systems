@@ -47,7 +47,7 @@
     \frametitle{Hardware support}
     
     Hardware must give proper support for protection.
-    Minimal requirements:
+    Minimal requirements are
     \begin{itemize}
         \item Processor Modes: Kernel and User
         \item MMU: Memory Management Unit
@@ -62,6 +62,11 @@
     \frametitle{Hardware support: Processor Modes}
     
     Processor Modes
+    \begin{figure}
+        \includegraphics[scale=0.5]{images/101.png}
+        \caption{The problem!}
+    \end{figure}
+    Continuing to processor mode
 
 \end{frame}
 %---------------------------------------------------------
@@ -71,6 +76,7 @@
     \frametitle{Hardware support: MMU}
     
     MMU: Memory Management Unit
+    \inputminted[c]{code/001.c}
     
 \end{frame}
 %---------------------------------------------------------
