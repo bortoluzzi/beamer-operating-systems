@@ -1,14 +1,12 @@
 \documentclass{beamer}      % This is a beamer
 \usepackage[utf8]{inputenc} % Language support
-%\usepackage{minted}         % Source code
-
 \usepackage{utopia}         % Utopia Font
 
 \usetheme{Madrid}
 \usecolortheme{default}
 
 %------------------------------------------------------------
-%Title page
+%Title configuration block
 \title[Operating Systems]
 {Operating Systems}
 
@@ -19,7 +17,7 @@
 
 \institute[UNIVALI]
 {
-  \inst{1}%
+  \inst{1}
   Computer Networks Laboratory\\
   in collaboration with\\
   Laboratory of Embedded and Distributed Systems\\
@@ -30,10 +28,8 @@
 
 %\logo{\includegraphics[height=1.5cm]{images/univali-logo.jpg}}
 
-%End of title page configuration block
+%End of title configuration block
 %------------------------------------------------------------
-
-
 
 %------------------------------------------------------------
 %The next block of commands puts the table of contents at the 
@@ -48,11 +44,9 @@
 }
 %------------------------------------------------------------
 
-
 \begin{document}
 %Create the title page.
 \frame{\titlepage}
-
 
 %---------------------------------------------------------
 %This block of code is for the table of contents after
@@ -62,7 +56,6 @@
 \tableofcontents
 \end{frame}
 %---------------------------------------------------------
-
 
 \include{sections/1_introduction}
 \include{sections/2_memory_management}
