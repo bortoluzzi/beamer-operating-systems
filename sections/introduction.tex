@@ -1,7 +1,6 @@
 \section{Introduction}
 
 %---------------------------------------------------------
-%Basic frame
 \begin{frame}
     \frametitle{Hardware review}
     
@@ -27,7 +26,6 @@
 %---------------------------------------------------------
 
 %---------------------------------------------------------
-%Basic frame
 \begin{frame}
     \frametitle{Wider definition of an Operating Systems}
     
@@ -45,7 +43,48 @@
 %---------------------------------------------------------
 
 %---------------------------------------------------------
-%Basic frame
+\begin{frame}
+    \frametitle{Hardware support}
+    
+    Hardware must give proper support for protection.
+    Minimal requirements:
+    \begin{itemize}
+        \item Processor Modes: Kernel and User
+        \item MMU: Memory Management Unit
+        \item I/O handling via interrupts
+    \end{itemize}
+
+\end{frame}
+%---------------------------------------------------------
+
+%---------------------------------------------------------
+\begin{frame}
+    \frametitle{Hardware support: Processor Modes}
+    
+    Processor Modes
+
+\end{frame}
+%---------------------------------------------------------
+
+%---------------------------------------------------------
+\begin{frame}
+    \frametitle{Hardware support: MMU}
+    
+    MMU: Memory Management Unit
+    
+\end{frame}
+%---------------------------------------------------------
+
+%---------------------------------------------------------
+\begin{frame}
+    \frametitle{Hardware support: I/O Interrupts}
+    
+    I/O Interrupts
+    
+\end{frame}
+%---------------------------------------------------------
+
+%---------------------------------------------------------
 \begin{frame}
     \frametitle{The shell is not the OS}
     
@@ -62,7 +101,6 @@
 % INTRODUCTION QUIZ
 
 %---------------------------------------------------------
-%Basic frame
 \begin{frame}
     \frametitle{Quiz}
     
@@ -74,6 +112,16 @@
         \item
         5. On early computers, e very byte of data read or written w as handled by the CPU (i.e.,
         there was no DMA). What implications does this have for multiprogramming?
+    \end{itemize}    
+
+\end{frame}
+%---------------------------------------------------------
+
+%---------------------------------------------------------
+\begin{frame}
+    \frametitle{Quiz}
+
+        \begin{itemize}
         \item
         6. Instructions related to accessing I/O de vices are typically pri vileged instructions, that
         is, they can be executed in kernel mode but not in user mode. Give a reason why these
@@ -93,7 +141,6 @@
 %---------------------------------------------------------
 
 %---------------------------------------------------------
-%Basic frame
 \begin{frame}
     \frametitle{Quiz}
     
@@ -106,6 +153,16 @@
         \item
         27. Modern operating systems decouple a process address space from the machine’s physi-
         cal memory. List two advantages of this design.
+    \end{itemize}    
+
+\end{frame}
+%---------------------------------------------------------  
+
+%---------------------------------------------------------
+\begin{frame}
+    \frametitle{Quiz}
+    
+    \begin{itemize}
         \item
         29. Figure 1-23 sho ws that a number of UNIX system calls ha ve no Win32 API equi v-
         alents. For each of the calls listed as ha ving no Win32 equivalent, what are the conse-
